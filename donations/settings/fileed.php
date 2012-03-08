@@ -45,7 +45,6 @@ if (!((isset($_SESSION['MM_Username'])) && (isAuthorized("",$MM_authorizedUsers,
 ?>
 <?
 require "config.php";
-require "../config.php";
 require($_SERVER['DOCUMENT_ROOT'] . '/csmp/config.php');
 if($admineditor)
 {
